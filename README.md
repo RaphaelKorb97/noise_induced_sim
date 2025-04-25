@@ -25,9 +25,7 @@ The project is inspired by the experiment by Sugiyama et al. (2007), where 22 ve
   - Noise intensity (sigma)
   - Model selection
   - Simulation speed
-- Two GUI implementations:
-  - PyQt5-based interface
-  - Tkinter-based interface
+- PyQt5-based GUI interface
 - Data export capabilities for analysis
 
 ## Installation
@@ -51,14 +49,9 @@ pip install -r requirements.txt
 
 ## Usage
 
-### Running the PyQt5 Interface
+Run the simulation with:
 ```bash
 python main.py
-```
-
-### Running the Tkinter Interface
-```bash
-python tk_app.py
 ```
 
 ### Key Features in the Interface
