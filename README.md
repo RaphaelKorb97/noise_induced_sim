@@ -1,5 +1,7 @@
 # Noise-Induced Traffic Simulation
 
+![Simulation Interface](Simulation_interface.png)
+
 A Python implementation of microscopic traffic flow models to study the emergence of stop-and-go waves in traffic systems, with a particular focus on noise-induced phenomena. This simulation compares different traffic models including the Social Force Model (SFM) and the Speed-Induced Decision Making (SIDM) model.
 
 ## Project Description
@@ -54,12 +56,13 @@ Run the simulation with:
 python main.py
 ```
 
-### Key Features in the Interface
-- Model Selection: Choose between different traffic models
-- Noise Control: Adjust the noise intensity (sigma) using the slider
-- Speed Control: Modify the simulation speed
-- Perturbation Button: Apply a braking perturbation to the blue vehicle
-- Reset Button: Restart the simulation with current parameters
+### Interface Overview
+The simulation interface (shown above) provides:
+- **Model Selection**: Choose between different traffic models
+- **Noise Control**: Adjust the noise intensity (sigma) using the slider
+- **Speed Control**: Modify the simulation speed
+- **Perturbation Button**: Apply a braking perturbation to the blue vehicle
+- **Reset Button**: Restart the simulation with current parameters
 
 ## Models
 
